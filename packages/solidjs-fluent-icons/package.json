@@ -1,0 +1,54 @@
+{
+	"name": "solidjs-fluent-icons",
+	"license": "MIT",
+	"version": "0.1.6",
+	"description": "heroicons inspired structure for fluent icons unofficial not backed by microsoft, just helpful and easy to use that is what I want from my libraries to be.",
+	"keywords": [
+		"fluent-icons",
+		"solidjs"
+	],
+	"author": "sacarvy",
+	"bugs": {
+		"url": "https://github.com/sacarvy/solidjs-fluent-icons/issues"
+	},
+	"homepage": "https://github.com/sacarvy/solidjs-fluent-icons#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sacarvy/solidjs-fluent-icons.git"
+	},
+	"private": false,
+	"sideEffects": false,
+	"publishConfig": {
+		"access": "public"
+	},
+    "files": [
+        "filled",
+        "filled/types",
+        "regular",
+        "regular/types"
+    ],
+	"type": "module",
+	"scripts": {
+		"dev": "pnpm run build -w",
+		"build": "rollup -c ../../configs/rollup.config.ts",
+		"test": "pnpm run test:client && pnpm run test:ssr",
+		"test:client": "jest --config jest.config.ts",
+		"test:ssr": "jest --config jest.config.ssr.ts",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "^5.16.4",
+		"jest": "^28.1.1",
+		"jest-environment-jsdom": "^28.1.1",
+		"rollup": "^2.75.7",
+		"rollup-preset-solid": "^1.4.0",
+		"solid-js": "^1.4.5",
+		"solid-testing-library": "^0.3.0",
+		"ts-node": "^10.8.1",
+		"typescript": "^4.7.4"
+	},
+	"peerDependencies": {
+		"solid-js": "^1.4.4"
+	},
+	"packageManager": "pnpm@7.3.0"
+}

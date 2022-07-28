@@ -1,0 +1,20 @@
+{
+  "name": "solidjs-fluent-icons-filled",
+    "sideEffects": false,
+    "type": "module",
+    "main": "cjs/index.js",
+    "module": "esm/index.js",
+    "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+		"solid": "./source/index.jsx",
+		"import": "./esm/index.js",
+		"browser": {
+			"import": "./esm/index.js",
+			"require": "./cjs/index.js"
+		},
+		"require": "./cjs/index.js",
+		"node": "./cjs/index.js"
+    }
+  }
+}

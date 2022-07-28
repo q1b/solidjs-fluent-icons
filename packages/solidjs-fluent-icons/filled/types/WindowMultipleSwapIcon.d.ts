@@ -1,0 +1,5 @@
+import { ComponentProps, JSX } from "solid-js";
+declare function WindowMultipleSwapIcon(props: ComponentProps<'svg'> & {
+    hidden?: boolean;
+}): JSX.Element;
+export default WindowMultipleSwapIcon;

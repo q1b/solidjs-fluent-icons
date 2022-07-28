@@ -1,0 +1,5 @@
+import { ComponentProps, JSX } from "solid-js";
+declare function ReadingListIcon(props: ComponentProps<'svg'> & {
+    hidden?: boolean;
+}): JSX.Element;
+export default ReadingListIcon;
