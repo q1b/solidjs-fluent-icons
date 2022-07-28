@@ -1,9 +1,9 @@
 {
-	"name": "your-repository-name-monorepo",
-	"description": "your-repository-desc",
+	"name": "aphadev-monorepo",
+	"description": "fluent icons for solidjs developers, taken inspiration for myself from heroicons to show case them.",
 	"version": "0.0.1",
 	"license": "MIT",
-	"author": "your-author-name",
+	"author": "divyamrit",
 	"contributors": [],
 	"scripts": {
 		"dev": "turbo run dev --parallel",

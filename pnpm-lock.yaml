@@ -40,7 +40,7 @@ importers:
       vite: 2.9.13
       vite-plugin-solid: 2.2.6
 
-  packages/hello:
+  packages/solidjs-fluent-icons:
     specifiers:
       '@testing-library/jest-dom': ^5.16.4
       jest: ^28.1.1
@@ -64,14 +64,14 @@ importers:
 
   playgrounds/sandbox:
     specifiers:
-      '@your-repository-name/hello': ^0.0.1
       solid-js: ^1.4.5
+      solidjs-fluent-icons: ^0.0.5
       typescript: ^4.7.4
       vite: ^2.9.13
       vite-plugin-solid: ^2.2.6
     dependencies:
-      '@your-repository-name/hello': link:../../packages/hello
       solid-js: 1.4.5
+      solidjs-fluent-icons: link:../../packages/solidjs-fluent-icons
     devDependencies:
       typescript: 4.7.4
       vite: 2.9.13

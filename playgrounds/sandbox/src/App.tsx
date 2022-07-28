@@ -1,5 +1,5 @@
 import type { Component } from "solid-js"
-import { Hello } from "@your-repository-name/hello"
+import { AccessTimeIcon } from "solidjs-fluent-icons/filled"
 
 import logo from "./logo.svg"
 import styles from "./App.module.css"
@@ -10,7 +10,7 @@ const App: Component = () => {
 			<header class={styles.header}>
 				<img src={logo} class={styles.logo} alt="logo" />
 				<h1>
-					<Hello></Hello>
+					<AccessTimeIcon class="text-rose-600" width="40" height="40" />
 				</h1>
 				<p>
 					Edit <code>src/App.tsx</code> and save to reload.

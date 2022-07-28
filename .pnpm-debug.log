@@ -1,0 +1,24 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "C:\\Users\\subir\\Desktop\\Sukhpreet_Singh\\monorepo-starter"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: ==help",
+      "code": "ENOENT",
+      "stack": "Error: not found: ==help\n    at getNotFoundError (C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:21148:51)\n    at Function.whichSync [as sync] (C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:21225:13)\n    at getCommandAbsolutePathSync (C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:22903:44)\n    at default_1 (C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:22912:32)\n    at C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:179918:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "C:\\Users\\subir\\Desktop\\Sukhpreet_Singh\\monorepo-starter",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: ==help",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: ==help\n    at getNotFoundError (C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:21148:51)\n    at Function.whichSync [as sync] (C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:21225:13)\n    at getCommandAbsolutePathSync (C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:22903:44)\n    at default_1 (C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:22912:32)\n    at C:\\Users\\subir\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:179918:39"
+    }
+  }
+}

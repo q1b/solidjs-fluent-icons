@@ -1,5 +1,5 @@
 {
-	"name": "your-repository-name-playground-sandbox",
+	"name": "aphadev-playground-sandbox",
 	"version": "0.0.0",
 	"description": "",
 	"scripts": {
@@ -15,7 +15,7 @@
 		"vite-plugin-solid": "^2.2.6"
 	},
 	"dependencies": {
-		"@your-repository-name/hello": "^0.0.1",
+		"solidjs-fluent-icons":"^0.0.5",
 		"solid-js": "^1.4.5"
 	}
 }
