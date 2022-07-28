@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CalendarMultipleIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CalendarMultipleIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CalendarMultipleIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default CalendarMultipleIcon

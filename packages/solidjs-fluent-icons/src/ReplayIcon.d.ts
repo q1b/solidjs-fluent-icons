@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ReplayIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ReplayIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ReplayIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ReplayIcon

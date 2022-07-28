@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function VideoPlayPauseIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default VideoPlayPauseIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function VideoPlayPauseIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default VideoPlayPauseIcon

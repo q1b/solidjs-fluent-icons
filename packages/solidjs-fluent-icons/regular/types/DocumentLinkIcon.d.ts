@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DocumentLinkIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DocumentLinkIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DocumentLinkIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DocumentLinkIcon

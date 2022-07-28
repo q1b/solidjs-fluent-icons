@@ -1,8 +1,24 @@
-import { splitProps } from "solid-js";
+import { splitProps } from "solid-js"
 function LineDashesIcon(props) {
-    const [local, others] = splitProps(props, ["style", "hidden", "ref", "children"]);
-    return (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" shape-rendering="geometricPrecision" fill="currentColor" aria-hidden="true" preserveAspectRatio="xMidYMid meet" style={typeof props?.style === 'string' ? `display:${props?.hidden ? 'none' : 'block'}` + ';' + props.style : { display: props?.hidden ? 'none' : 'block', ...props?.style }} ref={props.ref} {...others}>
-  <path d="M16.78 4.28a.75.75 0 00-1.06-1.06l-.5.5a.75.75 0 001.06 1.06l.5-.5zm-3 1.94c.3.3.3.77 0 1.06l-.5.5a.75.75 0 11-1.06-1.06l.5-.5c.3-.3.77-.3 1.06 0zm-3 3c.3.3.3.77 0 1.06l-.5.5a.75.75 0 11-1.06-1.06l.5-.5c.3-.3.77-.3 1.06 0zm-3 3c.3.3.3.77 0 1.06l-.5.5a.75.75 0 01-1.06-1.06l.5-.5c.3-.3.77-.3 1.06 0zm-3 4.06a.75.75 0 10-1.06-1.06l-.5.5a.75.75 0 101.06 1.06l.5-.5z"/>
-    </svg>);
+	const [local, others] = splitProps(props, ["style", "hidden", "ref", "children"])
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 20 20"
+			shape-rendering="geometricPrecision"
+			fill="currentColor"
+			aria-hidden="true"
+			preserveAspectRatio="xMidYMid meet"
+			style={
+				typeof props?.style === "string"
+					? `display:${props?.hidden ? "none" : "block"}` + ";" + props.style
+					: { display: props?.hidden ? "none" : "block", ...props?.style }
+			}
+			ref={props.ref}
+			{...others}
+		>
+			<path d="M16.78 4.28a.75.75 0 00-1.06-1.06l-.5.5a.75.75 0 001.06 1.06l.5-.5zm-3 1.94c.3.3.3.77 0 1.06l-.5.5a.75.75 0 11-1.06-1.06l.5-.5c.3-.3.77-.3 1.06 0zm-3 3c.3.3.3.77 0 1.06l-.5.5a.75.75 0 11-1.06-1.06l.5-.5c.3-.3.77-.3 1.06 0zm-3 3c.3.3.3.77 0 1.06l-.5.5a.75.75 0 01-1.06-1.06l.5-.5c.3-.3.77-.3 1.06 0zm-3 4.06a.75.75 0 10-1.06-1.06l-.5.5a.75.75 0 101.06 1.06l.5-.5z" />
+		</svg>
+	)
 }
-export default LineDashesIcon;
+export default LineDashesIcon

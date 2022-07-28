@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function MicSettingsIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default MicSettingsIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function MicSettingsIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default MicSettingsIcon

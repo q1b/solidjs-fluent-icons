@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DataHistogramIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DataHistogramIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DataHistogramIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DataHistogramIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function BedIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default BedIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function BedIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default BedIcon

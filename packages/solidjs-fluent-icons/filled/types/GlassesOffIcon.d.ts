@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function GlassesOffIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default GlassesOffIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function GlassesOffIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default GlassesOffIcon

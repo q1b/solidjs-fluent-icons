@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TextNumberListLtrIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TextNumberListLtrIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TextNumberListLtrIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TextNumberListLtrIcon

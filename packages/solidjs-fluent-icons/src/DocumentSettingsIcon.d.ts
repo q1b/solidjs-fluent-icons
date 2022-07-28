@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DocumentSettingsIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DocumentSettingsIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DocumentSettingsIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default DocumentSettingsIcon

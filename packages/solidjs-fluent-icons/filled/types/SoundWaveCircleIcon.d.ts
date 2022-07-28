@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function SoundWaveCircleIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default SoundWaveCircleIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function SoundWaveCircleIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default SoundWaveCircleIcon

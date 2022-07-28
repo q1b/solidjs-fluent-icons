@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TextExpandIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TextExpandIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TextExpandIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TextExpandIcon

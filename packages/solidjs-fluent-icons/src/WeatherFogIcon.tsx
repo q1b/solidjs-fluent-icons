@@ -1,13 +1,25 @@
+import { splitProps, ComponentProps, JSX } from "solid-js"
 
-import { splitProps, ComponentProps, JSX } from "solid-js";
-
-function WeatherFogIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ):JSX.Element {
-  const [local, others] = splitProps(props, [ "style", "hidden", "ref", "children" ]);
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" shape-rendering="geometricPrecision" fill="currentColor" aria-hidden="true" preserveAspectRatio="xMidYMid meet" style={typeof props?.style === 'string' ? `display:${props?.hidden ? 'none' : 'block'}` + ';' + props.style : { display:props?.hidden ? 'none' : 'block', ...props?.style }} ref={props.ref} {...others}>
-  <path d="M6.5 15.02h7a.5.5 0 01.09 1H6.5a.5.5 0 01-.09-.99h.09zm-2-2h11c.27 0 .5.23.5.5a.5.5 0 01-.41.5H4.5a.5.5 0 01-.5-.5.5.5 0 01.41-.49h.1zm5.5-10c2.46 0 3.86 1.58 4.07 3.48h.06A2.82 2.82 0 0117 9.26a2.82 2.82 0 01-2.87 2.76H5.87A2.82 2.82 0 013 9.26C3 7.8 4.2 6.6 5.7 6.5h.23c.2-1.91 1.6-3.48 4.07-3.48zm0 1a3.04 3.04 0 00-3.09 3.03c0 .28-.25.5-.54.5h-.55c-1 0-1.82.77-1.82 1.73 0 .97.81 1.74 1.82 1.74h8.36c1 0 1.82-.77 1.82-1.74 0-.96-.81-1.73-1.82-1.73h-.55c-.29 0-.54-.22-.54-.5A3.02 3.02 0 0010 4.02z"/>
-</svg>
-
-  );
+function WeatherFogIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element {
+	const [local, others] = splitProps(props, ["style", "hidden", "ref", "children"])
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 20 20"
+			shape-rendering="geometricPrecision"
+			fill="currentColor"
+			aria-hidden="true"
+			preserveAspectRatio="xMidYMid meet"
+			style={
+				typeof props?.style === "string"
+					? `display:${props?.hidden ? "none" : "block"}` + ";" + props.style
+					: { display: props?.hidden ? "none" : "block", ...props?.style }
+			}
+			ref={props.ref}
+			{...others}
+		>
+			<path d="M6.5 15.02h7a.5.5 0 01.09 1H6.5a.5.5 0 01-.09-.99h.09zm-2-2h11c.27 0 .5.23.5.5a.5.5 0 01-.41.5H4.5a.5.5 0 01-.5-.5.5.5 0 01.41-.49h.1zm5.5-10c2.46 0 3.86 1.58 4.07 3.48h.06A2.82 2.82 0 0117 9.26a2.82 2.82 0 01-2.87 2.76H5.87A2.82 2.82 0 013 9.26C3 7.8 4.2 6.6 5.7 6.5h.23c.2-1.91 1.6-3.48 4.07-3.48zm0 1a3.04 3.04 0 00-3.09 3.03c0 .28-.25.5-.54.5h-.55c-1 0-1.82.77-1.82 1.73 0 .97.81 1.74 1.82 1.74h8.36c1 0 1.82-.77 1.82-1.74 0-.96-.81-1.73-1.82-1.73h-.55c-.29 0-.54-.22-.54-.5A3.02 3.02 0 0010 4.02z" />
+		</svg>
+	)
 }
-export default WeatherFogIcon;
+export default WeatherFogIcon

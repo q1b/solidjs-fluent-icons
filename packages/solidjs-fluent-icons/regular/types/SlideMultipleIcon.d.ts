@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function SlideMultipleIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default SlideMultipleIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function SlideMultipleIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default SlideMultipleIcon

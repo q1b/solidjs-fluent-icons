@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ScanCameraIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ScanCameraIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ScanCameraIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ScanCameraIcon

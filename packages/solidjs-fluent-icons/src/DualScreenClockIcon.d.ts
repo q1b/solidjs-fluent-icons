@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DualScreenClockIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DualScreenClockIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DualScreenClockIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default DualScreenClockIcon

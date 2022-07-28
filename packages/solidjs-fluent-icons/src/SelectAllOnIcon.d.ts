@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function SelectAllOnIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default SelectAllOnIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function SelectAllOnIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default SelectAllOnIcon

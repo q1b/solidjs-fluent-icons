@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ShapeUnionIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ShapeUnionIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ShapeUnionIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ShapeUnionIcon

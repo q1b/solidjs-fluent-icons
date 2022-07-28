@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PeopleQueueIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PeopleQueueIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PeopleQueueIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default PeopleQueueIcon

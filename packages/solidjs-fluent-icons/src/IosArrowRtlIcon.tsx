@@ -1,13 +1,25 @@
+import { splitProps, ComponentProps, JSX } from "solid-js"
 
-import { splitProps, ComponentProps, JSX } from "solid-js";
-
-function IosArrowRtlIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ):JSX.Element {
-  const [local, others] = splitProps(props, [ "style", "hidden", "ref", "children" ]);
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="geometricPrecision" fill="currentColor" aria-hidden="true" preserveAspectRatio="xMidYMid meet" style={typeof props?.style === 'string' ? `display:${props?.hidden ? 'none' : 'block'}` + ';' + props.style : { display:props?.hidden ? 'none' : 'block', ...props?.style }} ref={props.ref} {...others}>
-  <path d="M19.7 12l-8.49-8.73a.75.75 0 111.08-1.04l9 9.25c.28.29.28.75 0 1.04l-9 9.25a.75.75 0 11-1.08-1.04l8.5-8.73z"/>
-</svg>
-
-  );
+function IosArrowRtlIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element {
+	const [local, others] = splitProps(props, ["style", "hidden", "ref", "children"])
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 24 24"
+			shape-rendering="geometricPrecision"
+			fill="currentColor"
+			aria-hidden="true"
+			preserveAspectRatio="xMidYMid meet"
+			style={
+				typeof props?.style === "string"
+					? `display:${props?.hidden ? "none" : "block"}` + ";" + props.style
+					: { display: props?.hidden ? "none" : "block", ...props?.style }
+			}
+			ref={props.ref}
+			{...others}
+		>
+			<path d="M19.7 12l-8.49-8.73a.75.75 0 111.08-1.04l9 9.25c.28.29.28.75 0 1.04l-9 9.25a.75.75 0 11-1.08-1.04l8.5-8.73z" />
+		</svg>
+	)
 }
-export default IosArrowRtlIcon;
+export default IosArrowRtlIcon

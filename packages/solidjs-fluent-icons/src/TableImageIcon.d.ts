@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TableImageIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TableImageIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TableImageIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TableImageIcon

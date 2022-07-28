@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TextCaseUppercaseIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TextCaseUppercaseIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TextCaseUppercaseIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default TextCaseUppercaseIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PhoneDesktopAddIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PhoneDesktopAddIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PhoneDesktopAddIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PhoneDesktopAddIcon

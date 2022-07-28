@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CheckmarkSquareIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CheckmarkSquareIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CheckmarkSquareIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default CheckmarkSquareIcon

@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function MailArrowDownIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default MailArrowDownIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function MailArrowDownIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default MailArrowDownIcon

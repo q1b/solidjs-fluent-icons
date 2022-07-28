@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function VideoPersonSparkleIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default VideoPersonSparkleIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function VideoPersonSparkleIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default VideoPersonSparkleIcon

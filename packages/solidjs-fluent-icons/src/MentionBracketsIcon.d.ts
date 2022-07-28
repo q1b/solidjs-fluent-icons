@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function MentionBracketsIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default MentionBracketsIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function MentionBracketsIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default MentionBracketsIcon

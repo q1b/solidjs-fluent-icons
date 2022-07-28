@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PlugConnectedIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PlugConnectedIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PlugConnectedIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PlugConnectedIcon

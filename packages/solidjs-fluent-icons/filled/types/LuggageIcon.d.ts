@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function LuggageIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default LuggageIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function LuggageIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default LuggageIcon

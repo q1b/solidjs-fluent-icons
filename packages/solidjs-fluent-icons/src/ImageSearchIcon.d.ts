@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ImageSearchIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ImageSearchIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ImageSearchIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ImageSearchIcon

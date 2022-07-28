@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DatabaseSwitchIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DatabaseSwitchIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DatabaseSwitchIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DatabaseSwitchIcon

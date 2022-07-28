@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function VideoClipOffIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default VideoClipOffIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function VideoClipOffIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default VideoClipOffIcon

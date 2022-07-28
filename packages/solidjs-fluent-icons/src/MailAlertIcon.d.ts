@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function MailAlertIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default MailAlertIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function MailAlertIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default MailAlertIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function BookCoinsIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default BookCoinsIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function BookCoinsIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default BookCoinsIcon

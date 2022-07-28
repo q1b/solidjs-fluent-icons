@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function BoardIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default BoardIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function BoardIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default BoardIcon

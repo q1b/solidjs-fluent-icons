@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ShieldErrorIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ShieldErrorIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ShieldErrorIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ShieldErrorIcon

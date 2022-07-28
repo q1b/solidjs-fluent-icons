@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DockRowIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DockRowIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DockRowIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default DockRowIcon

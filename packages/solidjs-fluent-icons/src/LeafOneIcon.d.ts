@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function LeafOneIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default LeafOneIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function LeafOneIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default LeafOneIcon

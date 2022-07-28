@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function VideoClipMultipleIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default VideoClipMultipleIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function VideoClipMultipleIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default VideoClipMultipleIcon

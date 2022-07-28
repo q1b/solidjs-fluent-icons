@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TabInPrivateIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TabInPrivateIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TabInPrivateIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TabInPrivateIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TextPositionFrontIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TextPositionFrontIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TextPositionFrontIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TextPositionFrontIcon

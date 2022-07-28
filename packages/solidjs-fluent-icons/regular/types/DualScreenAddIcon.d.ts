@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DualScreenAddIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DualScreenAddIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DualScreenAddIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DualScreenAddIcon

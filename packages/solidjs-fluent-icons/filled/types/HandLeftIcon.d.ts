@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function HandLeftIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default HandLeftIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function HandLeftIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default HandLeftIcon

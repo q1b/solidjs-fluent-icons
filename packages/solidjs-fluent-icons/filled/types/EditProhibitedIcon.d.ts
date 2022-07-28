@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function EditProhibitedIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default EditProhibitedIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function EditProhibitedIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default EditProhibitedIcon

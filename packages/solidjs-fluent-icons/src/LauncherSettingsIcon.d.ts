@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function LauncherSettingsIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default LauncherSettingsIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function LauncherSettingsIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default LauncherSettingsIcon

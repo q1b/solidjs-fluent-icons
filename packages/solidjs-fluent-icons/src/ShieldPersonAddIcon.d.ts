@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ShieldPersonAddIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ShieldPersonAddIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ShieldPersonAddIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default ShieldPersonAddIcon

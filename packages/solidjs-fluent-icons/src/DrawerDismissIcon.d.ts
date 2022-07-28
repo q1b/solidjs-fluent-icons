@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DrawerDismissIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DrawerDismissIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DrawerDismissIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default DrawerDismissIcon

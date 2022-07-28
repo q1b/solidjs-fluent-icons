@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PortMicroUsbIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PortMicroUsbIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PortMicroUsbIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PortMicroUsbIcon

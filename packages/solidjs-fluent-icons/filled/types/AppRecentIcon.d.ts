@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function AppRecentIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default AppRecentIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function AppRecentIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default AppRecentIcon

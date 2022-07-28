@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TabProhibitedIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TabProhibitedIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TabProhibitedIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TabProhibitedIcon

@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function GlobeIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default GlobeIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function GlobeIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default GlobeIcon

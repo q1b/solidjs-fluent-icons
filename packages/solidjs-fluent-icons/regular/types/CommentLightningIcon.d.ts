@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CommentLightningIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CommentLightningIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CommentLightningIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CommentLightningIcon

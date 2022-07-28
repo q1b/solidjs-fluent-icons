@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function AttachIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default AttachIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function AttachIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default AttachIcon

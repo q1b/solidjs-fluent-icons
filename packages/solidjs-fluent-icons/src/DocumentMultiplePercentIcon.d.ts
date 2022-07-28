@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DocumentMultiplePercentIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DocumentMultiplePercentIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DocumentMultiplePercentIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default DocumentMultiplePercentIcon

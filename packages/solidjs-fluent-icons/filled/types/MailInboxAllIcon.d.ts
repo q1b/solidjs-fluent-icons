@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function MailInboxAllIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default MailInboxAllIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function MailInboxAllIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default MailInboxAllIcon

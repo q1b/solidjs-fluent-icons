@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CopySelectIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CopySelectIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CopySelectIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default CopySelectIcon

@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PhoneSpeakerIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PhoneSpeakerIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PhoneSpeakerIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default PhoneSpeakerIcon

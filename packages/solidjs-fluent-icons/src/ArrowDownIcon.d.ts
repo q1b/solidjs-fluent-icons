@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ArrowDownIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ArrowDownIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ArrowDownIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ArrowDownIcon

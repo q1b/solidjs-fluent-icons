@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function VideoSecurityIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default VideoSecurityIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function VideoSecurityIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default VideoSecurityIcon

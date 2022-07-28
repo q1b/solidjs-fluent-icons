@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function SlideAddIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default SlideAddIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function SlideAddIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default SlideAddIcon

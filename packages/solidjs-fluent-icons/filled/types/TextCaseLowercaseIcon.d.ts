@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TextCaseLowercaseIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TextCaseLowercaseIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TextCaseLowercaseIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TextCaseLowercaseIcon

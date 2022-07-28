@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DocumentArrowLeftIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DocumentArrowLeftIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DocumentArrowLeftIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DocumentArrowLeftIcon

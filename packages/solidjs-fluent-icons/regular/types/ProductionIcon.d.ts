@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ProductionIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ProductionIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ProductionIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ProductionIcon

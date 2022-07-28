@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PhoneScreenTimeIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PhoneScreenTimeIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PhoneScreenTimeIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default PhoneScreenTimeIcon

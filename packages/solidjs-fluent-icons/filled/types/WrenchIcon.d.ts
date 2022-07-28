@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function WrenchIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default WrenchIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function WrenchIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default WrenchIcon

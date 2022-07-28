@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PaddingDownIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PaddingDownIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PaddingDownIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default PaddingDownIcon

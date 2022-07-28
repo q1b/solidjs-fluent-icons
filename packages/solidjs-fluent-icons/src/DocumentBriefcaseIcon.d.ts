@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DocumentBriefcaseIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DocumentBriefcaseIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DocumentBriefcaseIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default DocumentBriefcaseIcon

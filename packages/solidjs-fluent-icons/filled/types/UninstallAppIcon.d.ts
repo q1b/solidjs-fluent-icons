@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function UninstallAppIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default UninstallAppIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function UninstallAppIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default UninstallAppIcon

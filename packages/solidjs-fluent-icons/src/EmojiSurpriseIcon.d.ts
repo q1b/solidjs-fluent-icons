@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function EmojiSurpriseIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default EmojiSurpriseIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function EmojiSurpriseIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default EmojiSurpriseIcon

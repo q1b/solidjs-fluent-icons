@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DesktopSyncIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DesktopSyncIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DesktopSyncIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DesktopSyncIcon

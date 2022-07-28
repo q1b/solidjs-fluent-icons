@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function NavigationIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default NavigationIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function NavigationIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default NavigationIcon

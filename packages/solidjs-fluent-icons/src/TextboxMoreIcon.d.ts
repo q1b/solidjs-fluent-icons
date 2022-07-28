@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TextboxMoreIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TextboxMoreIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TextboxMoreIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TextboxMoreIcon

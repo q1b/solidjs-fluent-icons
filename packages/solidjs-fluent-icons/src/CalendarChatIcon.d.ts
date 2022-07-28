@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CalendarChatIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CalendarChatIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CalendarChatIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default CalendarChatIcon

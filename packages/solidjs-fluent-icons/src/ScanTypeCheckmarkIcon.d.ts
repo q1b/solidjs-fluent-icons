@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ScanTypeCheckmarkIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ScanTypeCheckmarkIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ScanTypeCheckmarkIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default ScanTypeCheckmarkIcon

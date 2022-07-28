@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ShapeIntersectIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ShapeIntersectIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ShapeIntersectIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default ShapeIntersectIcon

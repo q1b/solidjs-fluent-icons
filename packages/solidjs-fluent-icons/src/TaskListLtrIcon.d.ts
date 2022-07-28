@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TaskListLtrIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TaskListLtrIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TaskListLtrIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TaskListLtrIcon

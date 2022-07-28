@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DocumentPageBottomLeftIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DocumentPageBottomLeftIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DocumentPageBottomLeftIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DocumentPageBottomLeftIcon

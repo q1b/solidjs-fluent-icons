@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function GlobeClockIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default GlobeClockIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function GlobeClockIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default GlobeClockIcon

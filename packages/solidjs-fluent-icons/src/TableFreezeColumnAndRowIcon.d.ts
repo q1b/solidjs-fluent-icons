@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TableFreezeColumnAndRowIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TableFreezeColumnAndRowIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TableFreezeColumnAndRowIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default TableFreezeColumnAndRowIcon

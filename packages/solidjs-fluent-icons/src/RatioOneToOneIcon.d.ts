@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function RatioOneToOneIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default RatioOneToOneIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function RatioOneToOneIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default RatioOneToOneIcon

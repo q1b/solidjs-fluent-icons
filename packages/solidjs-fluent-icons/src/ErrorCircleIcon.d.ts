@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ErrorCircleIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ErrorCircleIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ErrorCircleIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ErrorCircleIcon

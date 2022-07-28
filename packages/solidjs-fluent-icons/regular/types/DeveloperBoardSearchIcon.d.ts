@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DeveloperBoardSearchIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DeveloperBoardSearchIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DeveloperBoardSearchIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DeveloperBoardSearchIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function EmojiSparkleIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default EmojiSparkleIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function EmojiSparkleIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default EmojiSparkleIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function GiftCardMoneyIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default GiftCardMoneyIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function GiftCardMoneyIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default GiftCardMoneyIcon

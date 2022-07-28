@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function StarIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default StarIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function StarIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default StarIcon

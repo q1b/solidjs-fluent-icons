@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ArrowPreviousIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ArrowPreviousIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ArrowPreviousIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ArrowPreviousIcon

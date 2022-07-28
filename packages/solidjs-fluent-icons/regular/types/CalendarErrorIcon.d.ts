@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CalendarErrorIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CalendarErrorIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CalendarErrorIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CalendarErrorIcon

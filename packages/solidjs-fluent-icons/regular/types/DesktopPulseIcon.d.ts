@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DesktopPulseIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DesktopPulseIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DesktopPulseIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DesktopPulseIcon

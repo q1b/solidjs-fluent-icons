@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function NavigationPlayIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default NavigationPlayIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function NavigationPlayIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default NavigationPlayIcon

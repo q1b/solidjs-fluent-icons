@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function FilmstripIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default FilmstripIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function FilmstripIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default FilmstripIcon

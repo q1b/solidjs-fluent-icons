@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PeopleAudienceIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PeopleAudienceIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PeopleAudienceIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default PeopleAudienceIcon

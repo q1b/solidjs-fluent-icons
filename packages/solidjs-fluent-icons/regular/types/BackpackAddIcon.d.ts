@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function BackpackAddIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default BackpackAddIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function BackpackAddIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default BackpackAddIcon

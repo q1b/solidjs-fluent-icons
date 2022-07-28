@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TransmissionIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TransmissionIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TransmissionIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TransmissionIcon

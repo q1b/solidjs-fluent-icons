@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ProhibitedMultipleIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ProhibitedMultipleIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ProhibitedMultipleIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ProhibitedMultipleIcon

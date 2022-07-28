@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DriveTrainIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DriveTrainIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DriveTrainIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default DriveTrainIcon

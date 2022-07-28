@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TextDensityIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TextDensityIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TextDensityIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TextDensityIcon

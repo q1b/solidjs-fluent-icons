@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DocumentQueueIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DocumentQueueIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DocumentQueueIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default DocumentQueueIcon

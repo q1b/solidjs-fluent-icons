@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CalligraphyPenErrorIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CalligraphyPenErrorIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CalligraphyPenErrorIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CalligraphyPenErrorIcon

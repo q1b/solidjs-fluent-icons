@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function IncognitoIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default IncognitoIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function IncognitoIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default IncognitoIcon

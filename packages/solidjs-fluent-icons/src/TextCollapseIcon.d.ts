@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TextCollapseIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TextCollapseIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TextCollapseIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TextCollapseIcon

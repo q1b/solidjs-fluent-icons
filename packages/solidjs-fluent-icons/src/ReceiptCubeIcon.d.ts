@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ReceiptCubeIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ReceiptCubeIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ReceiptCubeIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ReceiptCubeIcon

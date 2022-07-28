@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function IosChevronRightIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default IosChevronRightIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function IosChevronRightIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default IosChevronRightIcon

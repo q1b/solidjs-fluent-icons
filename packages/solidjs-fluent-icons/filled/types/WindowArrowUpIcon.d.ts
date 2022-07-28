@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function WindowArrowUpIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default WindowArrowUpIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function WindowArrowUpIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default WindowArrowUpIcon

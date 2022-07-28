@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PipelineArrowCurveDownIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PipelineArrowCurveDownIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PipelineArrowCurveDownIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default PipelineArrowCurveDownIcon

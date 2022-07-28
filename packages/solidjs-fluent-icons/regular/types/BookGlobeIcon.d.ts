@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function BookGlobeIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default BookGlobeIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function BookGlobeIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default BookGlobeIcon

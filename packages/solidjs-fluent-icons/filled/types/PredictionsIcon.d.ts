@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PredictionsIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PredictionsIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PredictionsIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PredictionsIcon

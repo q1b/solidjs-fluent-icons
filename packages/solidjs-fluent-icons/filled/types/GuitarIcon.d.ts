@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function GuitarIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default GuitarIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function GuitarIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default GuitarIcon

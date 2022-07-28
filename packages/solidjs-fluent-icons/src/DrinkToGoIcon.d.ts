@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DrinkToGoIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DrinkToGoIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DrinkToGoIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default DrinkToGoIcon

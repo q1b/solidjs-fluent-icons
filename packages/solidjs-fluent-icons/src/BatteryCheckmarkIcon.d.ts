@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function BatteryCheckmarkIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default BatteryCheckmarkIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function BatteryCheckmarkIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default BatteryCheckmarkIcon

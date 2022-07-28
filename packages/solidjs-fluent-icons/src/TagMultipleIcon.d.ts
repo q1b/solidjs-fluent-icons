@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TagMultipleIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TagMultipleIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TagMultipleIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TagMultipleIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CallExclamationIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CallExclamationIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CallExclamationIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CallExclamationIcon

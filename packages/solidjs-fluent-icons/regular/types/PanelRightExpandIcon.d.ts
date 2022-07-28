@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PanelRightExpandIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PanelRightExpandIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PanelRightExpandIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PanelRightExpandIcon

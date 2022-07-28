@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function VehicleCarCollisionIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default VehicleCarCollisionIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function VehicleCarCollisionIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default VehicleCarCollisionIcon

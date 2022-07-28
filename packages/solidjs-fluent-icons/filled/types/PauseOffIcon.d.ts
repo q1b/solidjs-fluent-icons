@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PauseOffIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PauseOffIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PauseOffIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PauseOffIcon

@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TableInsertRowIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TableInsertRowIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TableInsertRowIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default TableInsertRowIcon

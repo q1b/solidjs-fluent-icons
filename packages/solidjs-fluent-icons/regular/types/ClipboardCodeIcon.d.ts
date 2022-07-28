@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ClipboardCodeIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ClipboardCodeIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ClipboardCodeIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ClipboardCodeIcon

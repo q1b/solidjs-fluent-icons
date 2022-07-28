@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function BookQuestionMarkIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default BookQuestionMarkIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function BookQuestionMarkIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default BookQuestionMarkIcon

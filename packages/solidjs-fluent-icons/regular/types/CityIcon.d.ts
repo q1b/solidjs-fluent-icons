@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CityIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CityIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CityIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CityIcon

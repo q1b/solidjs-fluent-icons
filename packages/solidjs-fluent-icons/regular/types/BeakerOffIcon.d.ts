@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function BeakerOffIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default BeakerOffIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function BeakerOffIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default BeakerOffIcon

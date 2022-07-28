@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ArrowJoinIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ArrowJoinIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ArrowJoinIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ArrowJoinIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PatchIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PatchIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PatchIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PatchIcon

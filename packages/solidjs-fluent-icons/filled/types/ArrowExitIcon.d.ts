@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ArrowExitIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ArrowExitIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ArrowExitIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ArrowExitIcon

@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function NotebookAddIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default NotebookAddIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function NotebookAddIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default NotebookAddIcon

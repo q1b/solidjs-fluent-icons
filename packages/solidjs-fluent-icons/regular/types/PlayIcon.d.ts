@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PlayIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PlayIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PlayIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PlayIcon

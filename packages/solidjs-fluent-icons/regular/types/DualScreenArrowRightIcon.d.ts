@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DualScreenArrowRightIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DualScreenArrowRightIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DualScreenArrowRightIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DualScreenArrowRightIcon

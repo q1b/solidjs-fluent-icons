@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ImmersiveReaderIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ImmersiveReaderIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ImmersiveReaderIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ImmersiveReaderIcon

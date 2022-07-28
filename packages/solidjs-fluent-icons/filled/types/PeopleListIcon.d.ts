@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PeopleListIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PeopleListIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PeopleListIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PeopleListIcon

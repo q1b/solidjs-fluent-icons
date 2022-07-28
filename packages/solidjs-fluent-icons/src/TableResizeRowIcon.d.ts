@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TableResizeRowIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TableResizeRowIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TableResizeRowIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default TableResizeRowIcon

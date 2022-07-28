@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function SquareIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default SquareIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function SquareIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default SquareIcon

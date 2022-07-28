@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function AlertOffIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default AlertOffIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function AlertOffIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default AlertOffIcon

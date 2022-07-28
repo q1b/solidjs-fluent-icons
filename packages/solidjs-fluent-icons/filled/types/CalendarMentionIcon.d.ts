@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CalendarMentionIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CalendarMentionIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CalendarMentionIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CalendarMentionIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PresenterIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PresenterIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PresenterIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PresenterIcon

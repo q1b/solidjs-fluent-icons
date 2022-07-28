@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TetrisAppIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TetrisAppIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TetrisAppIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TetrisAppIcon

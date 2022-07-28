@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CalendarArrowRightIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CalendarArrowRightIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CalendarArrowRightIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default CalendarArrowRightIcon

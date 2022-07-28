@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function WeatherSnowShowerNightIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default WeatherSnowShowerNightIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function WeatherSnowShowerNightIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default WeatherSnowShowerNightIcon

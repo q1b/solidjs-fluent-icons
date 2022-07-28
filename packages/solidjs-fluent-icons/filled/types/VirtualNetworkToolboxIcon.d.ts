@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function VirtualNetworkToolboxIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default VirtualNetworkToolboxIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function VirtualNetworkToolboxIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default VirtualNetworkToolboxIcon

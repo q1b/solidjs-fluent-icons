@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CalendarWeekNumbersIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CalendarWeekNumbersIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CalendarWeekNumbersIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CalendarWeekNumbersIcon

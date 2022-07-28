@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PanelBottomContractIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PanelBottomContractIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PanelBottomContractIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PanelBottomContractIcon

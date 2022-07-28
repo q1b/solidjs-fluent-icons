@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PhoneLaptopIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PhoneLaptopIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PhoneLaptopIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default PhoneLaptopIcon

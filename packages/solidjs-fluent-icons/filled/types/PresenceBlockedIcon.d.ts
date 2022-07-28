@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PresenceBlockedIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PresenceBlockedIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PresenceBlockedIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PresenceBlockedIcon

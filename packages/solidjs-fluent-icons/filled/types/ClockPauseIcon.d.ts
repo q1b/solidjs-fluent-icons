@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ClockPauseIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ClockPauseIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ClockPauseIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ClockPauseIcon

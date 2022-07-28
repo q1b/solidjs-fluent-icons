@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PersonSubtractIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PersonSubtractIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PersonSubtractIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PersonSubtractIcon

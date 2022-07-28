@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PollIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PollIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PollIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PollIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function SoundSourceIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default SoundSourceIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function SoundSourceIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default SoundSourceIcon

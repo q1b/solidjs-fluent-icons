@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function FoodIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default FoodIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function FoodIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default FoodIcon

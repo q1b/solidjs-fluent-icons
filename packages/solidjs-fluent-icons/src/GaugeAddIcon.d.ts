@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function GaugeAddIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default GaugeAddIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function GaugeAddIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default GaugeAddIcon

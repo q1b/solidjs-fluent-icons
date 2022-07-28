@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CertificateIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CertificateIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CertificateIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CertificateIcon

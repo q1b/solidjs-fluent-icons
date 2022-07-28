@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CollectionsAddIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CollectionsAddIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CollectionsAddIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default CollectionsAddIcon

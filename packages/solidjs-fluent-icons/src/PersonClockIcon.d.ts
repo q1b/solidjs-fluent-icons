@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PersonClockIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PersonClockIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PersonClockIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default PersonClockIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CodeIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CodeIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CodeIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CodeIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function SlideLinkIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default SlideLinkIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function SlideLinkIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default SlideLinkIcon

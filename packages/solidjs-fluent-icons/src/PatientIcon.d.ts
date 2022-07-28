@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PatientIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PatientIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PatientIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default PatientIcon

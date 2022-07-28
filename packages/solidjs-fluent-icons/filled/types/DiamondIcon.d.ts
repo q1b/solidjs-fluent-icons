@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DiamondIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DiamondIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DiamondIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DiamondIcon

@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function WeatherSunnyHighIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default WeatherSunnyHighIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function WeatherSunnyHighIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default WeatherSunnyHighIcon

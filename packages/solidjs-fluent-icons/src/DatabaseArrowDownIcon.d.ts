@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DatabaseArrowDownIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DatabaseArrowDownIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DatabaseArrowDownIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default DatabaseArrowDownIcon

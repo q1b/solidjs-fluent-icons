@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function OrganizationIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default OrganizationIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function OrganizationIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default OrganizationIcon

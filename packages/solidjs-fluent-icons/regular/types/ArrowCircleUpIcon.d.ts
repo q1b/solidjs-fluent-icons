@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ArrowCircleUpIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ArrowCircleUpIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ArrowCircleUpIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ArrowCircleUpIcon

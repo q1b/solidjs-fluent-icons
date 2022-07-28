@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CopyArrowRightIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CopyArrowRightIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CopyArrowRightIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CopyArrowRightIcon

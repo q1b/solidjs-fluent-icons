@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function GamesIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default GamesIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function GamesIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default GamesIcon

@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function AutoFitHeightIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default AutoFitHeightIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function AutoFitHeightIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default AutoFitHeightIcon

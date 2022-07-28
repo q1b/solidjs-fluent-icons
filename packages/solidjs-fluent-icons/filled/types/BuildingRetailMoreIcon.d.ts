@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function BuildingRetailMoreIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default BuildingRetailMoreIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function BuildingRetailMoreIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default BuildingRetailMoreIcon

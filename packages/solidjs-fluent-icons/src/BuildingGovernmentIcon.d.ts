@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function BuildingGovernmentIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default BuildingGovernmentIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function BuildingGovernmentIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default BuildingGovernmentIcon

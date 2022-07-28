@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function FolderIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default FolderIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function FolderIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default FolderIcon

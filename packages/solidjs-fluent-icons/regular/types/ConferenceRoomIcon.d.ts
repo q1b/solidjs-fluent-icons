@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ConferenceRoomIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ConferenceRoomIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ConferenceRoomIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ConferenceRoomIcon

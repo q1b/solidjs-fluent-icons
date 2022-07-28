@@ -1,8 +1,24 @@
-import { splitProps } from "solid-js";
+import { splitProps } from "solid-js"
 function VideoPlayPauseIcon(props) {
-    const [local, others] = splitProps(props, ["style", "hidden", "ref", "children"]);
-    return (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" shape-rendering="geometricPrecision" fill="currentColor" aria-hidden="true" preserveAspectRatio="xMidYMid meet" style={typeof props?.style === 'string' ? `display:${props?.hidden ? 'none' : 'block'}` + ';' + props.style : { display: props?.hidden ? 'none' : 'block', ...props?.style }} ref={props.ref} {...others}>
-  <path d="M11.5 5c-.83 0-1.5.67-1.5 1.5v7c0 .83.67 1.5 1.5 1.5h1c.83 0 1.5-.67 1.5-1.5v-7c0-.83-.67-1.5-1.5-1.5h-1zm5 0c-.83 0-1.5.67-1.5 1.5v7c0 .83.67 1.5 1.5 1.5h1c.83 0 1.5-.67 1.5-1.5v-7c0-.83-.67-1.5-1.5-1.5h-1zm-12.57.45A1.25 1.25 0 002 6.5v7c0 .98 1.08 1.58 1.92 1.06l5.5-3.46c.77-.5.77-1.62 0-2.11l-5.5-3.54z"/>
-    </svg>);
+	const [local, others] = splitProps(props, ["style", "hidden", "ref", "children"])
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 20 20"
+			shape-rendering="geometricPrecision"
+			fill="currentColor"
+			aria-hidden="true"
+			preserveAspectRatio="xMidYMid meet"
+			style={
+				typeof props?.style === "string"
+					? `display:${props?.hidden ? "none" : "block"}` + ";" + props.style
+					: { display: props?.hidden ? "none" : "block", ...props?.style }
+			}
+			ref={props.ref}
+			{...others}
+		>
+			<path d="M11.5 5c-.83 0-1.5.67-1.5 1.5v7c0 .83.67 1.5 1.5 1.5h1c.83 0 1.5-.67 1.5-1.5v-7c0-.83-.67-1.5-1.5-1.5h-1zm5 0c-.83 0-1.5.67-1.5 1.5v7c0 .83.67 1.5 1.5 1.5h1c.83 0 1.5-.67 1.5-1.5v-7c0-.83-.67-1.5-1.5-1.5h-1zm-12.57.45A1.25 1.25 0 002 6.5v7c0 .98 1.08 1.58 1.92 1.06l5.5-3.46c.77-.5.77-1.62 0-2.11l-5.5-3.54z" />
+		</svg>
+	)
 }
-export default VideoPlayPauseIcon;
+export default VideoPlayPauseIcon

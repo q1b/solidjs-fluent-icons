@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ArrowParagraphIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ArrowParagraphIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ArrowParagraphIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ArrowParagraphIcon

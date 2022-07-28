@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function MoneyOffIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default MoneyOffIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function MoneyOffIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default MoneyOffIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ChatArrowBackIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ChatArrowBackIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ChatArrowBackIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ChatArrowBackIcon

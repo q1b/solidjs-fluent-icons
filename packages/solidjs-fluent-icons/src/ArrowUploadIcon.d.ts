@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ArrowUploadIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ArrowUploadIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ArrowUploadIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ArrowUploadIcon

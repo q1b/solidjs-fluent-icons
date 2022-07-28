@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PersonAvailableIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PersonAvailableIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PersonAvailableIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PersonAvailableIcon

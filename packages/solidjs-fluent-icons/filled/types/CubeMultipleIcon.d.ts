@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CubeMultipleIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CubeMultipleIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CubeMultipleIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CubeMultipleIcon

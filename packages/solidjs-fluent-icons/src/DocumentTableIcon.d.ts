@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DocumentTableIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DocumentTableIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DocumentTableIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default DocumentTableIcon

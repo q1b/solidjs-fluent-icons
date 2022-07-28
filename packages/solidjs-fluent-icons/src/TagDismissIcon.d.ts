@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TagDismissIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TagDismissIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TagDismissIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TagDismissIcon

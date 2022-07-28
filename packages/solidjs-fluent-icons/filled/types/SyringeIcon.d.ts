@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function SyringeIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default SyringeIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function SyringeIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default SyringeIcon

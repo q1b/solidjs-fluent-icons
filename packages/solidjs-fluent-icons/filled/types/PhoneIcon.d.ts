@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PhoneIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PhoneIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PhoneIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PhoneIcon

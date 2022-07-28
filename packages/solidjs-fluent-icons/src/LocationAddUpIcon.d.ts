@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function LocationAddUpIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default LocationAddUpIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function LocationAddUpIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default LocationAddUpIcon

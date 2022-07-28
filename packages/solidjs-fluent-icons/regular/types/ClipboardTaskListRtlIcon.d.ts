@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ClipboardTaskListRtlIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ClipboardTaskListRtlIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ClipboardTaskListRtlIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ClipboardTaskListRtlIcon

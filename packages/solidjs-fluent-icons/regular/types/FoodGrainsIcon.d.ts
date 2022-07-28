@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function FoodGrainsIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default FoodGrainsIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function FoodGrainsIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default FoodGrainsIcon

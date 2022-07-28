@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ClosedCaptionIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ClosedCaptionIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ClosedCaptionIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ClosedCaptionIcon

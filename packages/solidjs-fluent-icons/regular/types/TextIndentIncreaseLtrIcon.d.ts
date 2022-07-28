@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TextIndentIncreaseLtrIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TextIndentIncreaseLtrIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TextIndentIncreaseLtrIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TextIndentIncreaseLtrIcon

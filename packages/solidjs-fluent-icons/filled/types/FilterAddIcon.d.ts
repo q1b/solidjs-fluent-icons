@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function FilterAddIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default FilterAddIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function FilterAddIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default FilterAddIcon

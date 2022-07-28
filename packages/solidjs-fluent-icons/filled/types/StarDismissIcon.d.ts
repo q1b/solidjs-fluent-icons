@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function StarDismissIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default StarDismissIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function StarDismissIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default StarDismissIcon

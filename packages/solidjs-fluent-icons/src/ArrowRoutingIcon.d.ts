@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ArrowRoutingIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ArrowRoutingIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ArrowRoutingIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ArrowRoutingIcon

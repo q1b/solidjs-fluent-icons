@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DesktopIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DesktopIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DesktopIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default DesktopIcon

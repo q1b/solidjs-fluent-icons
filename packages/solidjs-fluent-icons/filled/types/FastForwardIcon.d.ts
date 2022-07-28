@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function FastForwardIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default FastForwardIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function FastForwardIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default FastForwardIcon

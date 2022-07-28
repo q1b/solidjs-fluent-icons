@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DualScreenClosedAlertIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DualScreenClosedAlertIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DualScreenClosedAlertIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default DualScreenClosedAlertIcon

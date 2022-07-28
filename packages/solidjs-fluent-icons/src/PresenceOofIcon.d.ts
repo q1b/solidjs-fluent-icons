@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PresenceOofIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PresenceOofIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PresenceOofIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default PresenceOofIcon

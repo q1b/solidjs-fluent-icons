@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ColorBackgroundIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ColorBackgroundIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ColorBackgroundIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ColorBackgroundIcon

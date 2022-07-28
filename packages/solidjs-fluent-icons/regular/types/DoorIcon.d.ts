@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DoorIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DoorIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DoorIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DoorIcon

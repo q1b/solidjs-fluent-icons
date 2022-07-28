@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function BackspaceIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default BackspaceIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function BackspaceIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default BackspaceIcon

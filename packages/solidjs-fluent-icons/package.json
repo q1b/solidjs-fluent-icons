@@ -21,12 +21,12 @@
 	"publishConfig": {
 		"access": "public"
 	},
-    "files": [
-        "filled",
-        "filled/types",
-        "regular",
-        "regular/types"
-    ],
+	"files": [
+		"filled",
+		"filled/types",
+		"regular",
+		"regular/types"
+	],
 	"type": "module",
 	"scripts": {
 		"dev": "pnpm run build -w",

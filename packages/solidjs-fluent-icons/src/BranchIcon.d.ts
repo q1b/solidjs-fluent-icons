@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function BranchIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default BranchIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function BranchIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default BranchIcon

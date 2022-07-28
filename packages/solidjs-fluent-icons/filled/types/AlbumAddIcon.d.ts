@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function AlbumAddIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default AlbumAddIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function AlbumAddIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default AlbumAddIcon

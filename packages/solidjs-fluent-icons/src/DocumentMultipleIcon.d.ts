@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DocumentMultipleIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DocumentMultipleIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DocumentMultipleIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default DocumentMultipleIcon

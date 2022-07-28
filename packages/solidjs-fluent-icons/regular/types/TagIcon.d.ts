@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TagIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TagIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TagIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TagIcon

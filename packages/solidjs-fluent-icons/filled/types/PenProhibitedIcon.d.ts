@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PenProhibitedIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PenProhibitedIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PenProhibitedIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PenProhibitedIcon

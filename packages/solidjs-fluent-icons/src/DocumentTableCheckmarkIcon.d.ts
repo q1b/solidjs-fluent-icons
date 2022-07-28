@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DocumentTableCheckmarkIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DocumentTableCheckmarkIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DocumentTableCheckmarkIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default DocumentTableCheckmarkIcon

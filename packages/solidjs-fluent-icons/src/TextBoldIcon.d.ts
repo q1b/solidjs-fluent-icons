@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TextBoldIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TextBoldIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TextBoldIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TextBoldIcon

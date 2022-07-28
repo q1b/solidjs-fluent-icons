@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TabDesktopMultipleIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TabDesktopMultipleIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TabDesktopMultipleIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TabDesktopMultipleIcon

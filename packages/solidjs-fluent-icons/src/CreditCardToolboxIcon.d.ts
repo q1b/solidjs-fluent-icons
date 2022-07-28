@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CreditCardToolboxIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CreditCardToolboxIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CreditCardToolboxIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default CreditCardToolboxIcon

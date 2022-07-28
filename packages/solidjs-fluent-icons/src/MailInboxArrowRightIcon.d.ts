@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function MailInboxArrowRightIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default MailInboxArrowRightIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function MailInboxArrowRightIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default MailInboxArrowRightIcon

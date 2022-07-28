@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function NotebookSectionIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default NotebookSectionIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function NotebookSectionIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default NotebookSectionIcon

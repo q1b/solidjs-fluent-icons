@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function AlignBottomIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default AlignBottomIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function AlignBottomIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default AlignBottomIcon

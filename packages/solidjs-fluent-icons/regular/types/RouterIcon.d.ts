@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function RouterIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default RouterIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function RouterIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default RouterIcon

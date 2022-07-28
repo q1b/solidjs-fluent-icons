@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ArrowExportRtlIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ArrowExportRtlIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ArrowExportRtlIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ArrowExportRtlIcon

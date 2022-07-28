@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TextBulletListSquareWarningIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TextBulletListSquareWarningIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TextBulletListSquareWarningIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default TextBulletListSquareWarningIcon

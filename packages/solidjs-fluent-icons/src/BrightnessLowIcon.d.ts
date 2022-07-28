@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function BrightnessLowIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default BrightnessLowIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function BrightnessLowIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default BrightnessLowIcon

@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function HeadsetIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default HeadsetIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function HeadsetIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default HeadsetIcon

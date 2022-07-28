@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ShieldKeyholeIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ShieldKeyholeIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ShieldKeyholeIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default ShieldKeyholeIcon

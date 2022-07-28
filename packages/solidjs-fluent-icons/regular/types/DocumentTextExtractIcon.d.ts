@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function DocumentTextExtractIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default DocumentTextExtractIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function DocumentTextExtractIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default DocumentTextExtractIcon

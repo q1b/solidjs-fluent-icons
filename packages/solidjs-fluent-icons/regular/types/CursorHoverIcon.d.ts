@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CursorHoverIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CursorHoverIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CursorHoverIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CursorHoverIcon

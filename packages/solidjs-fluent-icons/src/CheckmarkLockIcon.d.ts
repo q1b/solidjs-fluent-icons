@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CheckmarkLockIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CheckmarkLockIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CheckmarkLockIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default CheckmarkLockIcon

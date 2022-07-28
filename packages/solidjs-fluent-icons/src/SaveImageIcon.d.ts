@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function SaveImageIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default SaveImageIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function SaveImageIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default SaveImageIcon

@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function TextWordCountIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default TextWordCountIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function TextWordCountIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default TextWordCountIcon

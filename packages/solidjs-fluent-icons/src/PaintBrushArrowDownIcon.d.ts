@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PaintBrushArrowDownIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PaintBrushArrowDownIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PaintBrushArrowDownIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default PaintBrushArrowDownIcon

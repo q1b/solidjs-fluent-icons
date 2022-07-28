@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function WindowAdIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default WindowAdIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function WindowAdIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default WindowAdIcon

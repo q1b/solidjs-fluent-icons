@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function WalkieTalkieIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default WalkieTalkieIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function WalkieTalkieIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default WalkieTalkieIcon

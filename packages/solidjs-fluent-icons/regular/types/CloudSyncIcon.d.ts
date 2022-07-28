@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CloudSyncIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CloudSyncIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CloudSyncIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CloudSyncIcon

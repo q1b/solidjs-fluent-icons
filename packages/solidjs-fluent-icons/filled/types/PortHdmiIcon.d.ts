@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PortHdmiIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PortHdmiIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PortHdmiIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PortHdmiIcon

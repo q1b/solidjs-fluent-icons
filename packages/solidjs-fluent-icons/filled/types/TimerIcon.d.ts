@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function TimerIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default TimerIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function TimerIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default TimerIcon

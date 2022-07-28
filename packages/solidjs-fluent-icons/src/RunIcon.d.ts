@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function RunIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default RunIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function RunIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default RunIcon

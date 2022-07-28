@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function MergeIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default MergeIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function MergeIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default MergeIcon

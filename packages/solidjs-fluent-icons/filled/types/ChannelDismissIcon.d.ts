@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ChannelDismissIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ChannelDismissIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ChannelDismissIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ChannelDismissIcon

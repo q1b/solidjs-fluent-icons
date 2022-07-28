@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function WeatherPartlyCloudyDayIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default WeatherPartlyCloudyDayIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function WeatherPartlyCloudyDayIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default WeatherPartlyCloudyDayIcon

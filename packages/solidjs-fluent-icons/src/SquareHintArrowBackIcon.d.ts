@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function SquareHintArrowBackIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default SquareHintArrowBackIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function SquareHintArrowBackIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default SquareHintArrowBackIcon

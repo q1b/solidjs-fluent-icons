@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function MailMultipleIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default MailMultipleIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function MailMultipleIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default MailMultipleIcon

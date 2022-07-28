@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function WalletIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default WalletIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function WalletIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default WalletIcon

@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function FontIncreaseIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default FontIncreaseIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function FontIncreaseIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default FontIncreaseIcon

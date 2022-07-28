@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function DrawerArrowDownloadIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default DrawerArrowDownloadIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function DrawerArrowDownloadIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default DrawerArrowDownloadIcon

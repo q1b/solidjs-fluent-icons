@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function PresenceDndIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default PresenceDndIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function PresenceDndIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default PresenceDndIcon

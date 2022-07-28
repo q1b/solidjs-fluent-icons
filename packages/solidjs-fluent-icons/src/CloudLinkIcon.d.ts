@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CloudLinkIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CloudLinkIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CloudLinkIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default CloudLinkIcon

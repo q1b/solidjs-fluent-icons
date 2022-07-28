@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function BoxMultipleIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default BoxMultipleIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function BoxMultipleIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default BoxMultipleIcon

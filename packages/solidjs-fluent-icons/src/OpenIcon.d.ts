@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function OpenIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default OpenIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function OpenIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default OpenIcon

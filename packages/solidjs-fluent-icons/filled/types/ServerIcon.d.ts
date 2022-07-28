@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function ServerIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default ServerIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function ServerIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default ServerIcon

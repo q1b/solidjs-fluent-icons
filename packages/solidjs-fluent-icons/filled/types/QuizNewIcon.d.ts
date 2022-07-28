@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function QuizNewIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default QuizNewIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function QuizNewIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default QuizNewIcon

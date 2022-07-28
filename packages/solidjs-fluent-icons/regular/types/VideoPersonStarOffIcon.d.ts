@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function VideoPersonStarOffIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default VideoPersonStarOffIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function VideoPersonStarOffIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default VideoPersonStarOffIcon

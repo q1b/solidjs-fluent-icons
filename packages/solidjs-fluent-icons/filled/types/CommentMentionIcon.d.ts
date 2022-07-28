@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CommentMentionIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CommentMentionIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CommentMentionIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CommentMentionIcon

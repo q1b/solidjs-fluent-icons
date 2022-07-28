@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function VehicleCabIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default VehicleCabIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function VehicleCabIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default VehicleCabIcon

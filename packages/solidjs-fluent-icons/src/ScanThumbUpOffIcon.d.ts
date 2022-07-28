@@ -1,4 +1,5 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function ScanThumbUpOffIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default ScanThumbUpOffIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function ScanThumbUpOffIcon(
+	props: ComponentProps<"svg"> & { hidden?: boolean },
+): JSX.Element
+export default ScanThumbUpOffIcon

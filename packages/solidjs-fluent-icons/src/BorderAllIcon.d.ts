@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function BorderAllIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default BorderAllIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function BorderAllIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default BorderAllIcon

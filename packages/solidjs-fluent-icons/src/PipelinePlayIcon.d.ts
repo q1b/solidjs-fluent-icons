@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function PipelinePlayIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default PipelinePlayIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function PipelinePlayIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default PipelinePlayIcon

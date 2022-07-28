@@ -1,5 +1,7 @@
-import { ComponentProps, JSX } from "solid-js";
-declare function CaretRightIcon(props: ComponentProps<'svg'> & {
-    hidden?: boolean;
-}): JSX.Element;
-export default CaretRightIcon;
+import { ComponentProps, JSX } from "solid-js"
+declare function CaretRightIcon(
+	props: ComponentProps<"svg"> & {
+		hidden?: boolean
+	},
+): JSX.Element
+export default CaretRightIcon

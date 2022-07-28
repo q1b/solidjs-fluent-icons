@@ -1,4 +1,3 @@
-
-import type { ComponentProps, JSX } from "solid-js";
-declare function CommentNoteIcon(props: ComponentProps<'svg'>  & {hidden?:boolean} ): JSX.Element;
-export default CommentNoteIcon;
+import type { ComponentProps, JSX } from "solid-js"
+declare function CommentNoteIcon(props: ComponentProps<"svg"> & { hidden?: boolean }): JSX.Element
+export default CommentNoteIcon
